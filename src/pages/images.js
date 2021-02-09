@@ -1,16 +1,13 @@
 import React from "react"
-//import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import HeroSection from "../components/HeroSection"
 import Image from "../components/image"
 
-const IndexPage = () => (
+const Images = () => (
   <Layout>
-    <SEO title="Home" />
-    <HeroSection />
+    <SEO title="Images" />
     <Image />
   </Layout>
 )
 
-export default IndexPage
+export default Images

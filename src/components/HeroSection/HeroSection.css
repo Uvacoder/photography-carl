@@ -1,0 +1,69 @@
+.hero-container {
+    background: url('../../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0 0.2);
+    object-fit: contain;
+    margin-top: -80px;
+}
+
+.hero-container > h1 {
+    color: #fff;
+    font-size: 100px;
+    margin-top: 0;
+}
+
+.hero-container > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Sacramento', cursive;
+}
+
+.hero-btn {
+    margin-top: 32px;
+}
+
+button {
+    border-radius: 4px;
+    background:#0cf;
+    white-space: nowrap;
+    padding: 16px 64px;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: "Ubunto", sans-serif;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transition: all 0.3s ease;
+    background: #202020cc;
+}
+
+@media screen and (max-width: 960px) {
+    .hero-container > h1 {
+        font-size: 70px;
+    }
+    button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-container > h1 {
+        font-size: 60px;
+    }
+    .hero-container > p {
+        font-size: 30px;
+    }
+}
